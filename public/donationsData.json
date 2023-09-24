@@ -19,7 +19,8 @@
     "Category_bg": "#FF444A",
     "Card_bg": "#FF444A26",
     "Text_bg": "#FF444A",
-    "Button_bg": "pink",
+    "Button_bg": "#FF444A33",
+    "Description_img": "https://i.ibb.co/nfctg4B/Rectangle-4288.png",
     "Description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
     "Price": 249.99
   },
@@ -32,6 +33,7 @@
     "Card_bg": "#79C23F26",
     "Text_bg": "#79C23F",
     "Button_bg": "#79C23F33",
+    "Description_img": "https://i.ibb.co/wJHn7t4/Rectangle-4287.png",
     "Description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
     "Price": 279.99
   },
@@ -68,6 +70,7 @@
     "Card_bg": "#79C23F26",
     "Text_bg": "#79C23F",
     "Button_bg": "#79C23F33",
+    "Description_img": "https://i.ibb.co/wJHn7t4/Rectangle-4287.png",
     "Description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
     "Price": 279.99
   },
@@ -79,7 +82,8 @@
     "Category_bg": "#FF444A",
     "Card_bg": "#FF444A26",
     "Text_bg": "#FF444A",
-    "Button_bg": "pink",
+    "Button_bg": "#FF444A33",
+    "Description_img": "https://i.ibb.co/nfctg4B/Rectangle-4288.png",
     "Description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
     "Price": 249.99
   },
@@ -104,6 +108,7 @@
     "Card_bg": "#0052FF26",
     "Text_bg": "#0052FF",
     "Button_bg": "#0052FF33",
+    "Description_img": "https://i.ibb.co/nfctg4B/Rectangle-4288.png",
     "Description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
     "Price": 290.99
   },
@@ -115,7 +120,8 @@
     "Category_bg": "#FF444A",
     "Card_bg": "#FF444A26",
     "Text_bg": "#FF444A",
-    "Button_bg": "pink",
+    "Button_bg": "#FF444A33",
+    "Description_img": "https://i.ibb.co/nfctg4B/Rectangle-4288.png",
     "Description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
     "Price": 249.99
   },
@@ -128,6 +134,7 @@
     "Card_bg": "#79C23F26",
     "Text_bg": "#79C23F",
     "Button_bg": "#79C23F33",
+    "Description_img": "https://cdn.eduadvisor.my/articles/2018/01/How-to-increase-your-employability-as-a-student-5-Get-some-volunteer-experience.png",
     "Description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
     "Price": 279.99
   },
@@ -140,6 +147,7 @@
     "Card_bg": "#F8714726",
     "Text_bg": "#F87147",
     "Button_bg": "#F8714733",
+    "Description_img": "https://img.freepik.com/free-photo/close-up-people-holding-apples-bag_23-2149182018.jpg?w=740&t=st=1695590512~exp=1695591112~hmac=c3f7bca614f646cacf22e20999ffd6df58e12d933c79ba560d0184262d74caf7",
     "Description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential. ",
     "Price": 379.99
   }
