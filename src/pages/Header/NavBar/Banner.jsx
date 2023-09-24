@@ -1,13 +1,13 @@
 const Banner = () => {
   return (
     <div>
-      <div className="relative bottom-40 md:bottom-28 grid h-[40rem] w-full max-w-full flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
+      <div className="relative bottom-40 md:bottom-28 grid h-[36rem]  max-w-full flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
         <div className="absolute inset-0 m-0 h-full w-full opacity-10 overflow-hidden rounded-none bg-transparent bg-[url('https://i.ibb.co/NSRX0Pf/bg-img.webp')] bg-cover bg-clip-border bg-center text-gray-700 shadow-none">
           <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50"></div>
         </div>
 
         <div className="relative p-6 pb-48 px-0 md:px-12">
-          <h2 className="mb-1 block font-sans text-4xl font-medium leading-[1.5] tracking-normal text-black antialiased">
+          <h2 className="mb-1 block font-sans text-2xl md:text-4xl font-medium leading-[1.5] tracking-normal text-black antialiased">
             I Grow By Helping People In Need
           </h2>
           {/* ------------ */}
