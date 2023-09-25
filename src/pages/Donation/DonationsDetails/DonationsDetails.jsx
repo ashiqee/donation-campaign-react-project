@@ -1,11 +1,10 @@
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { useEffect } from "react";
+
 import {
   getStoredDonation,
   saveDonation,
 } from "../../../components/utitlity/localstorage";
-import { useParams } from "react-router-dom";
 
 const DonationsDetails = ({ donationData }) => {
   const {
@@ -36,11 +35,11 @@ const DonationsDetails = ({ donationData }) => {
   };
 
   return (
-    <div className="max-w-7xl mx-auto mt-10">
+    <div className="max-w-7xl  lg:mx-auto mx-10 mt-10">
       <figure className="relative">
         <div href="#">
           <img
-            className="rounded-lg h-full w-full md:h-[700px] lg:h-[80vh]"
+            className="rounded-lg h-full w-full md:h-[48vh] lg:h-[72vh]"
             src={Description_img}
             alt="image description"
           />

@@ -1,32 +1,37 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
     <div className="relative z-40   ">
-      <div className="md:flex justify-center grid mx-auto  py-5  md:justify-between items-center">
-        <div>
+      <div className="md:flex justify-center grid mx-10 lg:mx-auto  py-5  md:justify-between items-center">
+        <Link to="/">
           <img src="https://i.ibb.co/hMYyQQ7/Logo.png" alt="" />
-        </div>
+        </Link>
         <div>
           <ul className=" flex mt-5 gap-4 md:gap-10 text-lg  font-bold">
-            <NavLink
-              className={({ isActive }) =>
-                isActive
-                  ? "block py-2 pl-3 pr-4 text-white md:underline underline-offset-8  rounded md:bg-transparent  md:text-[#FF444A]  md:dark:text-[#FF444A] dark:bg-[#FF444A] md:dark:bg-transparent"
-                  : " py-2 pl-3 pr-4 text-black "
-              }
-              to="/">
-              Home
-            </NavLink>
             <NavLink
               className={({ isActive, isPending }) =>
                 isPending
                   ? "pending"
                   : isActive
-                  ? "block py-2 pl-3 pr-4 text-white md:underline underline-offset-8 bg-blue-700 rounded md:bg-transparent md:text-[#FF444A]  md:dark:text-[#FF444A] dark:bg-[#FF444A] md:dark:bg-transparent"
+                  ? "block py-2 pl-3 pr-4 text-white md:underline underline-offset-8 bg-rose-500 rounded md:bg-transparent md:text-[#FF444A]  md:dark:text-[#FF444A] dark:bg-[#FF444A] md:dark:bg-transparent"
                   : "block py-2 pl-3 pr-4 text-black"
               }
-              to="/donation">
+              to="/"
+            >
+              Home
+            </NavLink>
+            <NavLink
+              // onClick={show}
+              className={({ isActive, isPending }) =>
+                isPending
+                  ? "pending"
+                  : isActive
+                  ? "block py-2 pl-3 pr-4 text-white md:underline underline-offset-8 bg-rose-500 rounded md:bg-transparent md:text-[#FF444A]  md:dark:text-[#FF444A] dark:bg-[#FF444A] md:dark:bg-transparent"
+                  : "block py-2 pl-3 pr-4 text-black"
+              }
+              to="/donation"
+            >
               Donation
             </NavLink>
             <NavLink
@@ -34,10 +39,11 @@ const NavBar = () => {
                 isPending
                   ? "pending"
                   : isActive
-                  ? "block py-2 pl-3 pr-4 text-white md:underline underline-offset-8 bg-blue-700 rounded md:bg-transparent md:text-[#FF444A]  md:dark:text-[#FF444A] dark:bg-[#FF444A] md:dark:bg-transparent"
+                  ? "block py-2 pl-3 pr-4 text-white md:underline underline-offset-8 bg-rose-500 rounded md:bg-transparent md:text-[#FF444A]  md:dark:text-[#FF444A] dark:bg-[#FF444A] md:dark:bg-transparent"
                   : "block py-2 pl-3 pr-4 text-black"
               }
-              to="/statistics">
+              to="/statistics"
+            >
               Statistics
             </NavLink>
           </ul>

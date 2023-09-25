@@ -9,14 +9,16 @@ const DonationCard = ({ donate }) => {
       <Link
         to={`/donationDetail/${id}`}
         style={{ backgroundColor: Card_bg }}
-        className={`max-w-full border border-gray-200 rounded-lg shadow  `}>
+        className={`max-w-full border border-gray-200 rounded-lg shadow  `}
+      >
         <img src={Picture} alt="" />
 
         <div style={{ color: Text_bg }} className="p-5">
-          <button className={`btn`}>
+          <button>
             <h2
               className="py-2 p-2 rounded-md "
-              style={{ backgroundColor: Button_bg }}>
+              style={{ backgroundColor: Button_bg }}
+            >
               {Category}
             </h2>
           </button>

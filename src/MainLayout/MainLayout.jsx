@@ -8,10 +8,8 @@ const MainLayout = () => {
       <div className="max-w-7xl mx-auto">
         <NavBar />
       </div>
-      <div className="max-w-7xl mx-auto">
-        {" "}
-        <Outlet />
-      </div>
+
+      <Outlet />
     </div>
   );
 };

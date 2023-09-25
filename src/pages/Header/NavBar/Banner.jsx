@@ -1,7 +1,7 @@
 const Banner = () => {
   return (
     <div>
-      <div className="relative bottom-40 md:bottom-28 grid h-[36rem]  max-w-full flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
+      <div className="relative bottom-40 md:bottom-28 grid h-[46rem]  max-w-full flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
         <div className="absolute inset-0 m-0 h-full w-full opacity-10 overflow-hidden rounded-none bg-transparent bg-[url('https://i.ibb.co/NSRX0Pf/bg-img.webp')] bg-cover bg-clip-border bg-center text-gray-700 shadow-none">
           <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50"></div>
         </div>
@@ -24,13 +24,15 @@ const Banner = () => {
                 />
                 <button
                   type="submit"
-                  className="absolute top-0 right-0 p-2.5 text-sm font-medium h-full text-white bg-[#FF444A] rounded-r-lg border border-[#FF444A] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-[#FF444A] dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                  className="absolute top-0 right-0 p-2.5 text-sm font-medium h-full text-white bg-[#FF444A] rounded-r-lg border border-[#FF444A] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-[#FF444A] dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >
                   <svg
                     className="w-4 h-4"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
-                    viewBox="0 0 20 20">
+                    viewBox="0 0 20 20"
+                  >
                     <path
                       stroke="currentColor"
                       stroke-linecap="round"

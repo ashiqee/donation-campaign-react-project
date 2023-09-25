@@ -44,8 +44,7 @@ const DonationStore = (dn) => {
           <Link to={`/donationDetail/${id}`}>
             <button
               style={{ backgroundColor: Text_bg }}
-              className="flex btn select-none items-center gap-2 rounded-lg py-3  px-6 text-center align-middle font-sans text-lg font-bold  text-white transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-              type="button"
+              className="flex  select-none items-center gap-2 rounded-lg py-3  px-6 text-center align-middle font-sans text-lg font-bold  text-white transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
             >
               View Details
             </button>
