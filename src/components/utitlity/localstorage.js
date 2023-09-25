@@ -15,18 +15,4 @@ const saveDonation = (id) => {
   }
 };
 
-const getFoodDonation = () => {
-  const foodDonations = localStorage.getItem("Food");
-  if (foodDonations) {
-    return JSON.parse(foodDonations);
-  }
-};
-const saveFoodDonation = (Price) => {
-  const foodDonations = getFoodDonation();
-  if (true) {
-    foodDonations.push(Price);
-    localStorage.setItem("Food", JSON.stringify(foodDonations));
-  }
-};
-
-export { getStoredDonation, saveDonation, saveFoodDonation };
+export { getStoredDonation, saveDonation };

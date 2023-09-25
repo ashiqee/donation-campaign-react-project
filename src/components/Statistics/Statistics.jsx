@@ -32,7 +32,7 @@ const Statistics = () => {
   const [edu, setEdu] = useState(0);
 
   const data = displayAllDonation;
-  console.log(data);
+  // console.log(data);
   useEffect(() => {
     if (data) {
       data.map((dn) => {
