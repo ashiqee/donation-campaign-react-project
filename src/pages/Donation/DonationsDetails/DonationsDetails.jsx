@@ -49,8 +49,7 @@ const DonationsDetails = ({ donationData }) => {
           <button
             onClick={handleDonationAdd}
             className="p-2 rounded-lg font-bold"
-            style={{ backgroundColor: Text_bg }}
-          >
+            style={{ backgroundColor: Text_bg }}>
             Donate ${Price}
           </button>
         </figcaption>

@@ -4,10 +4,10 @@ import { useLoaderData } from "react-router-dom";
 import { useState } from "react";
 import DonationStore from "../../components/DonationStore/DonationStore";
 import { key } from "localforage";
+
 const Donation = () => {
   const donations = useLoaderData();
 
-  const [donationsSubmit, setDonationsSubmit] = useState([]);
   const [displayAllDonation, setDisplayDonation] = useState([]);
   const [dataLength, setDataLength] = useState(4);
 
@@ -22,7 +22,7 @@ const Donation = () => {
           donationSubmit.push(donation);
         }
       }
-      setDonationsSubmit(donationSubmit);
+
       setDisplayDonation(donationSubmit);
     }
   }, [donations]);
@@ -40,8 +40,7 @@ const Donation = () => {
         <div className="flex justify-center">
           <button
             onClick={() => setDataLength(displayAllDonation.length)}
-            className="btn p-4  bg-green-600 rounded-lg text-white font-semibold my-6"
-          >
+            className="btn p-4  bg-green-600 rounded-lg text-white font-semibold my-6">
             Show All
           </button>
         </div>
