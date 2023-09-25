@@ -28,7 +28,7 @@ const Banner = () => {
                   type="search"
                   id="search-dropdown"
                   className="block p-2.5 w-full z-20 text-sm text-gray-700 rounded-s-2xl  bg-gray-50 rounded-r-lg border-l-gray-50 border-l-2 border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-200 dark:border-l-gray-700  dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:border-blue-500"
-                  placeholder="Search Mockups, Logos, Design Templates..."
+                  placeholder="Search food, clothing, health, education..."
                   required
                 />
                 <button
