@@ -1,5 +1,12 @@
+import PieCharts from "./PieCharts";
+
 const Statistics = () => {
-  return <div>This</div>;
+  return (
+    <div>
+      <h2>Pie Data</h2>
+      <PieCharts />
+    </div>
+  );
 };
 
 export default Statistics;
