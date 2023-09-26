@@ -74,22 +74,24 @@ const Statistics = () => {
     datasets: [
       {
         data: [food, health, clothe, edu],
-        backgroundColor: ["#0052FF", "#FF444A", "#79C23F", "#F87147"],
-        hoverBackgroundColor: ["#FF6384", "#36A2EB", "#FFCE56", "#F8714710"],
+        backgroundColor: ["#0052FF", "#FBA1B7", "#79C23F", "#F87147"],
+        hoverBackgroundColor: ["#FF6384", "#36A2EB", "#FFCE56", "#241468"],
       },
     ],
   };
 
   return (
-    <div className="max-w-7xl  mx-auto mt-10 flex justify-around gap-20">
+    <div className="max-w-7xl  mx-auto mt-10 md:flex justify-center  md:justify-around gap-20">
       <div>
         <h2 className="text-2xl text-center mb-10">
-          Category Donation PieCharts{" "}
+          Category Donation PieCharts
         </h2>
         <Pie data={dataC} />
       </div>
-      <div>
-        <h2 className="text-2xl text-center mb-10">Total Donation PieCharts</h2>
+      <div className="grid  justify-center">
+        <h2 className="text-2xl text-center mt-10 md:mt-0 mb-10">
+          Total Donation PieCharts
+        </h2>
         <TotalStatics />
       </div>
     </div>

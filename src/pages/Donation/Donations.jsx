@@ -10,7 +10,7 @@ const Donations = (props) => {
   const [displayDonationData, setDisplayDonationData] = useState([]);
 
   useEffect(() => {
-    console.log(inputData);
+    // console.log(inputData);
     if (
       inputData === "food" ||
       inputData === "health" ||

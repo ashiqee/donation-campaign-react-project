@@ -1,5 +1,3 @@
-import { split } from "postcss/lib/list";
-import React from "react";
 import { useEffect, useState } from "react";
 import { getStoredDonation } from "../utitlity/localstorage";
 import { Pie } from "react-chartjs-2";
@@ -11,7 +9,6 @@ const TotalStatics = () => {
   const donationStore = getStoredDonation();
 
   const remainingData = 100 - pData;
-  console.log(pData, remainingData);
 
   function calculate() {
     const getId = donationStore.length;
@@ -21,8 +18,6 @@ const TotalStatics = () => {
   }
   useEffect(() => {
     calculate();
-    // const total = () => getId + 12;
-    // console.log(total);
   }, []);
 
   const dataTotal = {
