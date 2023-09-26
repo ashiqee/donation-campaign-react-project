@@ -36,7 +36,7 @@ const Donation = () => {
           ))}
         </div>
       </div>
-      <div className={dataLength === displayAllDonation.length ? "hidden" : ""}>
+      <div className={dataLength >= displayAllDonation.length ? "hidden" : ""}>
         <div className="flex justify-center">
           <button
             onClick={() => setDataLength(displayAllDonation.length)}
