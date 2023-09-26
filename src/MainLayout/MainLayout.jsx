@@ -9,7 +9,9 @@ const MainLayout = () => {
         <NavBar />
       </div>
 
-      <Outlet />
+      <div className="mb-28">
+        <Outlet />
+      </div>
     </div>
   );
 };

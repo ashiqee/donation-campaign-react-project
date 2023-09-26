@@ -4,6 +4,8 @@ import { Chart as ChartJS, Tooltip, Title, ArcElement, Legend } from "chart.js";
 
 import { getStoredDonation } from "../utitlity/localstorage";
 import { useLoaderData } from "react-router-dom";
+import TotalStatics from "./TotalStatics";
+
 ChartJS.register(Tooltip, Title, ArcElement, Legend);
 
 const Statistics = () => {
@@ -67,7 +69,6 @@ const Statistics = () => {
     }
   }, [data]);
 
-  console.log(food);
   const dataC = {
     labels: ["Food", "Health", "Clothing", "Education"],
     datasets: [
@@ -80,8 +81,17 @@ const Statistics = () => {
   };
 
   return (
-    <div className="max-w-lg mx-auto mt-10">
-      <Pie data={dataC} />
+    <div className="max-w-7xl  mx-auto mt-10 flex justify-around gap-20">
+      <div>
+        <h2 className="text-2xl text-center mb-10">
+          Category Donation PieCharts{" "}
+        </h2>
+        <Pie data={dataC} />
+      </div>
+      <div>
+        <h2 className="text-2xl text-center mb-10">Total Donation PieCharts</h2>
+        <TotalStatics />
+      </div>
     </div>
   );
 };
